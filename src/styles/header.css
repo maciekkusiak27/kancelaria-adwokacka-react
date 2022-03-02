@@ -1,0 +1,15 @@
+header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -999;
+    opacity: 50%;
+    /* object-fit: cover; */
+}
+h1{
+    color: black;
+    letter-spacing: 0.15rem;
+}
