@@ -8,7 +8,7 @@ import CookieConsent from "react-cookie-consent";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLICnpm_URL}>
         <div className="app">
           <nav>
             {<Navigation />}
